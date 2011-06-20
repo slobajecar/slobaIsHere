@@ -1,0 +1,7 @@
+.container { width: 950px; margin: 0 auto; }
+.column { float: left; margin-right: 10px; }
+.span-6 { width: 230px; }
+.span-4 { width: 150px; }
+.span-1 { width: 30px; }
+.span-7 { width: 270px; }
+.last { margin-right: 0; }
