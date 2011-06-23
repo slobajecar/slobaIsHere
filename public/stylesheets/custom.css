@@ -1,7 +1,49 @@
+body {
+	text-align: center;
+}
+
+.container {
+	border: dotted;
+	border-color: #777777;
+}
+
+#Banner {
+    background-color: transparent;
+    border: 0 dotted #606870;
+    height: auto;
+    line-height: 0;
+    margin: 59px 12px 69px 41px;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+}
+
+#Sidebar {
+	/*font-family: "Gill Sans","Gill Sans Std","Gill Sans MT",Verdana,"Bitstream Vera Sans",sans-serif;*/
+	font-family: "Cambria","Georgia","Times New Roman",serif;
+	font-size: larger;
+    line-height: 1em;
+    text-align: left;
+}
+
+#Sidebar li {
+	letter-spacing: 2px;
+	list-style: none outside none;
+	margin: 0 0 1em;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#Sidebar p {
+	
+	margin: 1em 0 5em 1.5em;
+}
+
 .container { width: 950px; margin: 0 auto; }
 .column { float: left; margin-right: 10px; }
 .span-6 { width: 230px; }
 .span-4 { width: 150px; }
 .span-1 { width: 30px; }
 .span-7 { width: 270px; }
+.span-13 { width: 380px; }
 .last { margin-right: 0; }

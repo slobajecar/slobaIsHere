@@ -1,8 +1,8 @@
 <div class='container'>
   <div class='column span-6'>
   </div>
-  <div class='column span-4'>
-  	logo
+  <div id="Banner" class='column span-4'>
+  	<img src="..//public/images/logo.jpg" alt="logo">
   </div>
   <div class='column last span-14'>
   </div>
@@ -10,15 +10,20 @@
 <div class='container'>
   <div class='column span-6'>
   </div>
-  <div class='column span-4'>
-  	sidebar
+  <div id="Sidebar" class='column span-4'>
+  	<p>
+  		by Slobodan Stanisic
+  	</p>
+  	<ul>
+  		<li><%= link_to "home", home_path %></li>
+  		<li>blog</li>
+  		<li>about me</li>	
+	</ul>
   </div>
   <div class='column span-1'>
   </div>
-  <div class='column span-7'>
-  	main
-  </div>
-  <div class='column last span-6'>
+  <div class='column last span-13'>
+  	<img src="..//public/images/portrait.jpg" alt="portrait" />
   </div>
 </div>
 <div class='container'>
